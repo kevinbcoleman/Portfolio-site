@@ -1,0 +1,174 @@
+/**************BASE*************/
+body {
+  color: #E5E5E5;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+li,
+a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+li a {
+  color: #FCA311;
+}
+
+li a:hover {
+  color: #14213D;
+}
+
+.text-dec {
+  color: #FCA311;
+}
+
+
+/*************NAV*************/
+.navbar {
+  background-color: #14213D;
+}
+
+.navbar-dark {
+  background-color: #FCA311;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-brand {
+  font: 2rem 'Noto Serif', serif;
+}
+
+.nav-link,
+.navbar-brand {
+  color: #E5E5E5;
+  margin: 5px;
+}
+
+
+/************DISPLAY*************/
+.main-display {
+  background-color:#14213D;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-family: 'Noto Sans JP', sans-serif;}
+
+  .display-title {
+    font-size: 3em;
+  }
+.punct {
+  color: #FCA311;
+}
+
+/************ABOUT*************/
+#about-me {
+  height: 60vh;
+  color:#14213D;
+  display: flex;
+  align-items: center;
+}
+
+
+/************GALLERY*************/
+#work {
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(229,229,229,1) 50%); 
+}
+
+.work-gallery {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding-bottom: 10%;
+  color:#14213D;
+}
+
+.work-gallery h2,
+.work-gallery a {
+  color: #FCA311;
+}
+
+.work-gallery a {
+  border-color:#14213D;
+}
+
+.card {
+  margin: 2%;
+  border-radius: 10px;
+}
+
+
+/************CONTACT*************/
+#contact {
+  height: 30vh;
+  color:#14213D;
+  padding-top: 5%;
+}
+
+
+
+/************FOOTER*************/
+.footer,
+.footer-list {
+  color: #14213D;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-list {
+  margin-left: auto;
+}
+
+.footer-img {
+  height: 32px;
+  margin-left: 10px;
+}
+
+
+
+/****************************
+        MEDIA QUERIES
+****************************/
+@media screen and (min-width: 768px) {
+  
+/**************BASE*************/
+h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 3em;
+  }
+
+
+/*************NAV*************/
+  .nav-link {
+    border: 1px solid #FCA311;
+    border-radius: 5px;
+  }
+
+  .nav-link:hover {
+    background: rgba(252, 163, 17, 0.4);
+    color: #E5E5E5;
+  }
+
+  .main-display {
+    height: 60vh;
+  }
+
+/*************ABOUT*************/
+.about-text {
+  width: 50%;
+  margin: auto;
+}
+
+
+
+
+}
